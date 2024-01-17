@@ -61,6 +61,9 @@
     scale: 0.8;
 }
 
+.markus {
+    width: 100%;
+}
 @media (max-width: 1024px) {
     .c-container{
         flex-direction: column;

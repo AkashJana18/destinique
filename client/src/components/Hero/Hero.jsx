@@ -19,16 +19,16 @@ const Hero = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 2, type: "spring" }}
             >
-              Discover <br /> Most Suitable <br /> Property
+             Discover <br /> Most Suitable <br /> Location
             </motion.h1>
           </div>
 
           <div className="hero-desc flexColStart">
             <span className="secondaryText">
-              Find a variety of properties that suit you very easily
+            At Destinique, we believe in the transformative power of travel.
             </span>
             <span className="secondaryText">
-              Forget all difficulties in finding a residency for you
+            Our mission is simple — to be your trusted companion in planning remarkable journeys.
             </span>
           </div>
 
@@ -78,7 +78,7 @@ const Hero = () => {
             type: "spring"
           }}
           >
-            <img src="./hero-image.png" alt="hero-image" />
+            <img src="./geojango.jpg" alt="hero-image" />
           </motion.div>
         </div>
       </div>

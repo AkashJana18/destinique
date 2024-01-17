@@ -5,7 +5,7 @@ const ProfileMenu = ({ user, logout }) => {
   return (
     <Menu>
       <Menu.Target>
-        <Avatar src={user?.picture}  radius="xl"/>
+        <Avatar src={user?.picture}  radius="xl" onClick={console.log("cls")}/>
       </Menu.Target>
       <Menu.Dropdown>
         <Menu.Item>Favorites</Menu.Item>
