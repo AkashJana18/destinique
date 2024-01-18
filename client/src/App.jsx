@@ -11,6 +11,7 @@ import { ReactQueryDevtools } from "react-query/devtools";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import UserDetailContext from "./components/Context/UserDetailContext";
+import AddBusiness from "./pages/AddBusiness/AddBusiness";
 
 function App() {
   const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ function App() {
             <Routes>
               <Route element={<Layout />}>
                 <Route path="/" element={<Website />} />
+                <Route path="/addbusiness" element={<AddBusiness show={1} />} />
                 <Route path="/properties">
                   <Route index element={<Properties />} />
                   <Route path=":propertyId" element={<Property />} />

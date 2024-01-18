@@ -1,5 +1,4 @@
 .h-wrapper {
-    display: flex;
     top: 0;
     z-index: 99;
     position: sticky;
@@ -14,6 +13,10 @@
 
 .h-menu {
     gap: 2rem;
+    
+}
+.h-menu>button {
+    width: 10rem;
 }
 
 .h-menu>*:hover {
