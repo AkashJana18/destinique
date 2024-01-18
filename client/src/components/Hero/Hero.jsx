@@ -42,7 +42,7 @@ const Hero = () => {
                 </span>
                 <span>+</span>
               </span>
-              <span className="secondaryText">Premium Products</span>
+              <span className="secondaryText">Premium Services</span>
             </div>
 
             <div className="flexColCenter stats">
@@ -63,7 +63,7 @@ const Hero = () => {
                 </span>
                 <span>+</span>
               </span>
-              <span className="secondaryText">Award Winnings</span>
+              <span className="secondaryText">Countries</span>
             </div>
           </div>
         </div>

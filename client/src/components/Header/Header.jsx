@@ -10,6 +10,7 @@ import useHeaderColor from "../../hooks/useHeaderColor";
 import ProfileMenu from "../ProfileMenu/ProfileMenu";
 import { MantineProvider } from "@mantine/core";
 
+
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerColor = useHeaderColor;

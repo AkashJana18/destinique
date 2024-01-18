@@ -42,10 +42,6 @@
     fill: var(--blue);
 }
 
-.datingscout {
-    width: 50rem;
-}
-
 .accordionButton>.primaryText{
     font-size: 1.1rem;
 }

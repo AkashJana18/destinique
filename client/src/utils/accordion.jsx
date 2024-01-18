@@ -3,21 +3,21 @@ import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck/>,
-    heading: "Best interest rates on the market",
+    heading: "Robust Directory of Local Services:",
     detail:
-      "Unlock Your Dream Home: Discover the Best Interest Rates on the Market with Our Real Estate Platform, ensuring you make the most of your budget while realizing your homeownership dreams.",
+      "In-depth information on restaurants, transportation, accommodations, and tourist attractions.",
   },
   {
     icon: <MdCancel />,
-    heading: "Prevent unstable prices",
+    heading: "Business Verification Process",
     detail:
-      "Steadfast Stability: Navigate Unpredictability and Prevent Unstable Prices through Our Real Estate Listings, offering you a reliable path to property ownership and investment.",
+      "Display of a verified badge for businesses that meet safety standards and undergo thorough validation.",
   },
   {
     icon: <MdAnalytics />,
-    heading: "Best price on the market",
+    heading: "Safety Ratings and Reviews",
     detail:
-      "Your Perfect Investment: Secure the Best Price on the Market for Your Ideal Property with Our Real Estate Website, where your real estate aspirations meet unparalleled value.",
+      "Empower tourists to provide safety ratings and reviews for businesses and services.Highlight aspects related to security, honesty, and fair pricing to guide others in making safer choices.",
   },
 ];
 export default data;

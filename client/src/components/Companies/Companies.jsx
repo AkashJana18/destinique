@@ -1,17 +1,17 @@
-import React from 'react'
-import './Companies.css'
+import React from "react";
+import "./Companies.css";
 
 const Companies = () => {
   return (
     <section className="c-wrapper">
       <div className="c-container flexCenter paddings innerWidth">
-        <img src="./prologis.png" alt="prologis" />
-        <img src="./equinix.png" alt="equinix" />
-        <img src="tower.png" alt="tower" />
-        <img src="realty.png" alt="realty" />
+        <img src="./uber.png" alt="uber" />
+        <img src="./airbnb.png" alt="airbnb" />
+        <img src="./trivago.png" alt="trivago" />
+        <img src="./expedia.png" alt="expedia" />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Companies
+export default Companies;
