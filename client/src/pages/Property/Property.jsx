@@ -114,7 +114,6 @@ const Property = () => {
               Book Your Visit
             </button>
 
-            <p>bookin modal</p>
           </div>
 
           {/* right */}

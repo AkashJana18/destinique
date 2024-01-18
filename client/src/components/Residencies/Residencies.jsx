@@ -35,7 +35,7 @@ const Residencies = () => {
       <div className="innerWidth paddings r-container">
         <div className="r-head flexColStart">
           <span className="orangeText">Best Choices</span>
-          <span className="primaryText">The Popular Spots</span>
+          <span className="primaryText">The Popular Hotels And Villa</span>
         </div>
 
         <Swiper {...sliderSettings}>

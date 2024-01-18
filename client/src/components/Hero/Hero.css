@@ -36,18 +36,7 @@
     z-index: -1;
 }
 
-.search-bar{
-    background: white;
-    border: 3px solid rgba(120, 120, 120, .374);
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
-    justify-content: space-between;
-    width: 100%;
-}
-.search-bar>input{
-    border: none;
-    outline: none;
-}
+
 
 .stats {
     width: 100%;

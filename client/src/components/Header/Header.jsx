@@ -29,7 +29,7 @@ const Header = () => {
           }}
         >
           <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
-            <NavLink to="/properties">Properties</NavLink>
+            <NavLink to="/properties">Hotels</NavLink>
             <NavLink to="/addbusiness">Add Business</NavLink>
             <a href="mailto:akashjana663@gmail.com">Contact</a>
 
